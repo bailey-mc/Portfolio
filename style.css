@@ -20,7 +20,7 @@ div.header {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
+    justify-content: left;
 }
 /* ===============PAGES DIV============= */
 .pages {
@@ -30,12 +30,35 @@ div.header {
 div.pages{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 15%;
     height: 100%;
 }
 
+ul.pages {
+    margin-top: 10em;
+}
 
 /* ==============carousel============== */
 .carousel-container {
-    width: 60%
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-images {
+    margin-top: 10em;
+    width:80%;
+}
+.carousel-images img {
+    width: 80%;
+    border-radius: 10px;
+    display:none;
+}
+.carousel-button {
+    align-self: center;
+}
+.carousel-button:hover {
+    color: rgb(155, 149, 149)
+}
+.carousel-images img:first-of-type {
+    display: block;
 }
