@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===============HEADER============== */
+
+div.header {
+
+    height: 8em;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+/* ==============CONTEMT================ */
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+/* ===============PAGES DIV============= */
+.pages {
+    list-style-type: none;
+}
+
+div.pages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ==============carousel============== */
+.carousel-container {
+    width: 60%
+}
