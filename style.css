@@ -3,6 +3,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* ===============HEADER============== */
 
@@ -20,37 +24,52 @@ div.header {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: left;
+    justify-content: space-between;
 }
 /* ===============PAGES DIV============= */
-.pages {
+/* .pages {
     list-style-type: none;
-}
+} */
 
-div.pages{
+div.pagesbig {
     display: flex;
     flex-direction: column;
     width: 15%;
-    height: 100%;
+    justify-content: space-between;
+}
+
+div.pageslil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
 }
 
 ul.pages {
     margin-top: 10em;
+    list-style-type: none;
+}
+div.secretbutton {
+    height: 10%;
+    width:100%
 }
 
 /* ==============carousel============== */
 .carousel-container {
     width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
+    text-align: center;
 }
 .carousel-images {
-    margin-top: 10em;
+    margin-top: 8em;
     width:80%;
 }
 .carousel-images img {
     width: 80%;
     border-radius: 10px;
+    margin: 2em 2em 2em 2em;
+    align-self: center;
     display:none;
 }
 .carousel-button {
@@ -61,4 +80,50 @@ ul.pages {
 }
 .carousel-images img:first-of-type {
     display: block;
+}
+
+
+
+
+/* ==========FOOTER============ */
+footer {
+    margin-top: 3em;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    
+
+}
+ul.links {
+    width: 100%;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+.links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* ==============NAV BAR============= */
+/* why is the nac ul pushed to the right?? */
+div.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(214, 195, 232);
+}
+ul.navbar {
+    width: 100%;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.navbar.li {
+    display: inline-block;
+    
 }
