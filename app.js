@@ -2,7 +2,12 @@ console.log('hi!');
 
 $(() =>{
 
-  
+    const $secretlink =$('li.secret').hide(0)
+  //==========CLICK ME BUTTON====//
+  $('.secretbutton').on('click', () => {
+    $secretlink.show(3000)
+
+  })
 
     //=========CAROUSEL=============//
     let currentImgIndex = 0; 
