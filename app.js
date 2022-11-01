@@ -2,6 +2,8 @@ console.log('hi!');
 
 $(() =>{
 
+   
+
     const $secretlink =$('li.secret').hide(0)
   //==========CLICK ME BUTTON====//
   $('.secretbutton').on('click', () => {
@@ -41,7 +43,18 @@ $('.previous').on('click', () => {
 //===========END CAROUSEL=============//
 
 
+//========HOVER IMAGES RESUME=============//
+
+const $hoverImage = $('#hover-image1').hide(0)
 
 
+$('#resume-item1').hover(
+    () => {
+
+        $hoverImage.show(3000).hide(3000)
+        
+        
+        }
+) 
 
 })
