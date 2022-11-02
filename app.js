@@ -131,4 +131,17 @@ $('#resume-item5').hover(
 ) 
 
 
+//===========END RESUME ================//
+
+//============CODING PROJECTS===========//
+
+
+
+$( "#codeimage1" ).click(function() {
+    $( "#hovertext1" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+
 })

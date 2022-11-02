@@ -154,6 +154,33 @@ div.hover-image{
 
 
 
+/* =========CODE PROJECT SPECIFIC=========== */
+.projectbody {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.projectimg {
+    display: flex;
+    direction:row;
+    align-items:center;
+    margin: 5em 5em 0 0 ;
+    justify-content: left;
+}
+.codeimage {
+    height: 15em;
+    width: auto;
+    margin: 0 2em, 0, 0;
+   
+}
+.hover-text {
+    display: none;
+}
+
+/* =========END CODE PROJECT SPECIFIC=========== */
+
+
 /* ==========FOOTER============ */
 footer {
     margin-top: 3em;
