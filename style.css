@@ -1,10 +1,26 @@
 
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(#dddddd, #9198e5); */
+ }
+ 
 body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(#dddddd, #9198e5);
+    /* height: 100%; */
+    /* width: 100%; */
     
 }
+
+/* @media (min-height: 950px) {
+    body {
+        height:150%
+    }
+ } */
+
 a {
     text-decoration: none;
     color: inherit;
@@ -15,8 +31,11 @@ a {
 
 
 div.header {
-
-    height: 8em;
+    width:100%;
+    /* min-width: 565px; */
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 1em;
     text-align: center;
     background: linear-gradient(#e66465, #9198e5);
     color: black;
@@ -29,6 +48,8 @@ div.header {
 
 /* ==============CONTENT================ */
 .content{
+    max-width: 1024px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -111,10 +132,12 @@ div.secretbutton {
     width:80%;
     justify-content: center;
     text-align: center;
+    /* min-width:325px; */
     
 }
-.belowcarousel h3 {
-    margin: 0em 3em 0em 0em
+.belowcarousel h4 {
+    margin: 0em 3em 0em 0em;
+    min-width:325px;
     
 }
 /*=============END HOME PAGE SPECIFIC =========*/
@@ -155,11 +178,15 @@ div.biobody {
 }
 
  img#fit {
-    width: 20em;
-    height: 20em;
+    
+    width: 70%;
+    height: 50%;
     border-radius: 10px;
-    border: 1px solid rgb(203, 203, 203);
-    margin: 2em 2em 2em 1em;
+    /* border: 1px solid rgb(203, 203, 203); */
+    margin: 10px 5%;
+    
+    /* min-width: 4em;
+    min-height: 4em; */
 }
 
 #fit {
@@ -211,6 +238,9 @@ div.hover-image{
    
     /* align-self: center; */
     /* margin: -2em 0 0 0;  */
+}
+.resume-list li {
+    font-size: 50px;
 }
 #hover-image1 {
     height: 150px;
@@ -295,15 +325,17 @@ div.hover-image{
 
 /* ==========FOOTER============ */
 footer {
-    margin-top: 3em;
+    margin: 0 auto;
     border-top: 1px solid black;
     display:flex;
     flex-direction: row;
     width: 100%;
-    
+    justify-content:center;
+    /* min-width: none; */
 
 }
 ul.links {
+    /* margin: 10 auto; */
     width: 100%;
     list-style-type: none;
     display:flex;
@@ -319,6 +351,7 @@ ul.links {
 /* why is the nac ul pushed to the right?? */
 div.navbar {
     width: 100%;
+    min-height: 1em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -333,9 +366,18 @@ ul.navbar {
     justify-content: space-around;
     
 }
-.navbar.li {
-    display: inline-block;
+.navbar li {
+    /* display: inline-block; */
+    padding: 1em;
     
+}
+@media (min-width:528px) {
+    div.navbar {
+        /* display: block; */
+        box-sizing: border-box;
+        margin:0 auto;
+        text-align: center;
+    }
 }
 
 
