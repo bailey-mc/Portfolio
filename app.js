@@ -136,15 +136,37 @@ $('#resume-item5').hover(
 
 //===========END RESUME ================//
 
+
+
+//============BIO===========//
+
+
+const $bioimage= $('#fit')
+
+// setTimeout (() => {
+//   for (let i = 1; 1<=11; i++) {
+//     $bioimage.attr(`src`, `bio_image/face${i}.jpeg`)
+//   } 
+// }, 500)
+
+
+$('#fit').click(function () {
+  $bioimage.attr(`src`, `bio_image/face2.jpeg`)
+})
+// for (let i = 1; 1<=11; i++) {
+//   $bioimage.attr(`src`, `bio_image/face${i}.jpeg`)
+// }
+
+//============END BIO===========//
+
+
+
+
 //============CODING PROJECTS===========//
 
 //=========MODAL----------//
 
-// const $questionbutton = $('#openModal')
-// const $modal = $('#modal')
-// const $closebutton = $('#close')
-
-
+//modal functions loosely based off of modal exercise in class
 
 setTimeout (() => {
   $('#modal').css('display', 'block');

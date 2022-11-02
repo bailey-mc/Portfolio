@@ -137,6 +137,53 @@ div.biobody {
     height:60%;
 }
 
+/*-------BIO PICTURE------*/
+.lefttop {
+
+    width:50%;
+    height:100%;
+}
+#biopic {
+    
+    max-height: 5em;
+    max-width: 5em;
+   
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 2em 2em 2em 1em;
+}
+
+#fit {
+    /* max-height: 20em;
+    max-width: 3em; */
+   object-fit:contain;
+
+}
+
+
+/*------SPRITE--------*/
+#sprite-image {
+    height:100px;
+    width:90px;
+    background: url("images/butterflysprite.png") ;
+    animation-name: sprite;
+    animation-duration: 2s;
+    animation-timing-function: steps(10);
+    animation-iteration-count: infinite;
+}
+
+@keyframes sprite {
+    from {background-position: 0px;}
+    to   {background-position: -1000px;}
+}
+
+/*------END SPRITE--------*/
+
 /*============END BIO SPECIFIC===========*/
 
 
