@@ -143,5 +143,23 @@ $( "#codeimage1" ).click(function() {
     });
   });
 
+  $( "#codeimage2" ).click(function() {
+    $( "#hovertext2" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+  $( "#codeimage3" ).click(function() {
+    $( "#hovertext3" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+  $( "#codeimage4" ).click(function() {
+    $( "#hovertext4" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
 
 })
