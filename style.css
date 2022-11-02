@@ -119,33 +119,37 @@ div.biobody {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 30em;
+    height: 60em;
     list-style-type: none;
     justify-content: space-around;
     text-align: center;
 }
-/* img.hover-image {
-    display: none;
-    
-    height: 6em;
-    width: 6em;
+div.hover-image{
+    z-index: -1;
    
+    /* align-self: center; */
+    /* margin: -2em 0 0 0;  */
 }
-img.hover-image::before{
-    /* color: rgba(0, 0, 0, 1); */
-    /* display: block;
-    z-index: -1;
-    height: 6em;
-    width: 6em;
-    transition: all 1s ease-in-out;
+#hover-image1 {
+    height: 150px;
+    width: auto;
 }
-
-img.hover-image:hover::before{
-    display: block;
-    z-index: -1;
-    height: 6em;
-    width: 6em;
-}  */
+#hover-image2 {
+    height: 150px;
+    width: auto;
+}
+#hover-image3 {
+    height: 150px;
+    width: auto;
+}
+#hover-image4 {
+    height: 150px;
+    width: auto;
+}
+#hover-image5 {
+    height: 150px;
+    width: auto;
+}
 /*============ END RESUME  SPECIFIC===========*/
 
 
