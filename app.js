@@ -4,6 +4,7 @@ $(() =>{
 
    
 
+
     const $secretlink =$('li.secret').hide(0)
   //==========CLICK ME BUTTON====//
   $('.secretbutton').on('click', () => {
@@ -12,6 +13,8 @@ $(() =>{
   })
 
     //=========CAROUSEL=============//
+    //carousel based off of class exercise on w03d01
+
     let currentImgIndex = 0; 
     const numOfImages = $('.carousel-images').children().length - 1
 
@@ -139,25 +142,27 @@ $('#resume-item5').hover(
 
 $( "#codeimage1" ).click(function() {
     $( "#hovertext1" ).slideToggle( "slow", function() {
-      // Animation complete.
+   
     });
   });
 
+  //this and all following slide toggle functions based off of https://api.jquery.com/slideToggle/ demonstration
+
   $( "#codeimage2" ).click(function() {
     $( "#hovertext2" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
   $( "#codeimage3" ).click(function() {
     $( "#hovertext3" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
   $( "#codeimage4" ).click(function() {
     $( "#hovertext4" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
@@ -169,25 +174,25 @@ $( "#codeimage1" ).click(function() {
 
   $( "#creativeimage1" ).click(function() {
     $( "#creativehovertext1" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
   $( "#creativeimage2" ).click(function() {
     $( "#creativehovertext2" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
   $( "#creativeimage3" ).click(function() {
     $( "#creativehovertext3" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
   $( "#creativeimage4" ).click(function() {
     $( "#creativehovertext4" ).slideToggle( "slow", function() {
-      // Animation complete.
+ 
     });
   });
 
