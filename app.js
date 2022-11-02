@@ -141,21 +141,7 @@ $('#resume-item5').hover(
 //============BIO===========//
 
 
-const $bioimage= $('#fit')
 
-// setTimeout (() => {
-//   for (let i = 1; 1<=11; i++) {
-//     $bioimage.attr(`src`, `bio_image/face${i}.jpeg`)
-//   } 
-// }, 500)
-
-
-$('#fit').click(function () {
-  $bioimage.attr(`src`, `bio_image/face2.jpeg`)
-})
-// for (let i = 1; 1<=11; i++) {
-//   $bioimage.attr(`src`, `bio_image/face${i}.jpeg`)
-// }
 
 //============END BIO===========//
 

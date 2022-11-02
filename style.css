@@ -2,6 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#dddddd, #9198e5);
+    
 }
 a {
     text-decoration: none;
@@ -10,11 +12,13 @@ a {
 
 /* ===============HEADER============== */
 
+
+
 div.header {
 
     height: 8em;
     text-align: center;
-    background-color: lightgray;
+    background: linear-gradient(#e66465, #9198e5);
     color: black;
 }
 
@@ -150,11 +154,11 @@ div.biobody {
    
 }
 
-img {
+ img#fit {
     width: 20em;
     height: 20em;
     border-radius: 10px;
-    border: 1px solid #000;
+    border: 1px solid rgb(203, 203, 203);
     margin: 2em 2em 2em 1em;
 }
 
@@ -165,6 +169,11 @@ img {
 
 }
 
+/*-------END BIO PICTURE------*/
+
+.righttop {
+    margin-top: 3em;
+}
 
 /*------SPRITE--------*/
 #sprite-image {
@@ -266,9 +275,10 @@ div.hover-image{
 }
 
 #modal-textbox {
-    background-color: white;
-    height: 350px;
-    width: 550px;
+    background: linear-gradient(rgb(1, 66, 82), rgb(98, 2, 122));
+    color: rgb(212, 232, 247);
+    height: 300px;
+    width: 450px;
     border-radius: 3px;
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -312,7 +322,8 @@ div.navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(214, 195, 232);
+    color: #e66465;
+    
 }
 ul.navbar {
     width: 100%;
