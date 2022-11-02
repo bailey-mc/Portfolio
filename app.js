@@ -162,4 +162,38 @@ $( "#codeimage1" ).click(function() {
   });
 
 
+  //===========END CODE PROJECTS=======//
+
+  //==========CREATIVE PROJECTS=======//
+
+
+  $( "#creativeimage1" ).click(function() {
+    $( "#creativehovertext1" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+  $( "#creativeimage2" ).click(function() {
+    $( "#creativehovertext2" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+  $( "#creativeimage3" ).click(function() {
+    $( "#creativehovertext3" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+  $( "#creativeimage4" ).click(function() {
+    $( "#creativehovertext4" ).slideToggle( "slow", function() {
+      // Animation complete.
+    });
+  });
+
+
+
+  //==========END CREATIVE PROJECTS=======//
+
+
 })
