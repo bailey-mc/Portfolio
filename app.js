@@ -138,7 +138,29 @@ $('#resume-item5').hover(
 
 //============CODING PROJECTS===========//
 
+//=========MODAL----------//
 
+// const $questionbutton = $('#openModal')
+// const $modal = $('#modal')
+// const $closebutton = $('#close')
+
+
+
+setTimeout (() => {
+  $('#modal').css('display', 'block');
+}, 500)
+
+$('#close').click(function () {
+  $('#modal').css('display', 'none')
+})
+
+
+
+
+//========= END MODAL----------//
+
+
+//=========SLIDE TOGGLE TEXT=========//
 
 $( "#codeimage1" ).click(function() {
     $( "#hovertext1" ).slideToggle( "slow", function() {
