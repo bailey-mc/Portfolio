@@ -10,6 +10,7 @@ html,body {
  }
  
 body {
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: column;
     /* background: linear-gradient(#dddddd, #9198e5); */
@@ -38,9 +39,10 @@ div.header {
     /* min-width: 565px; */
     margin:0 auto;
     box-sizing: border-box;
-    padding: 1em;
+    padding: .5em;
     text-align: center;
-    background: linear-gradient(#e66465, #9198e5);
+    font-size: 2rem;
+    /* background: linear-gradient(#e66465, #9198e5); */
     color: black;
 }
 
@@ -150,6 +152,27 @@ div.secretbutton {
     min-width:325px;
     
 }
+
+/*-------BUTTON -------------*/
+
+.secretbutton {
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+.secretbutton:hover,
+.secretbutton:active {
+    background-color: transparent;
+
+    color:goldenrod
+}
+
+
+
 /*=============END HOME PAGE SPECIFIC =========*/
 
 
@@ -399,6 +422,8 @@ ul.links {
 }
 
 /* ==============NAV BAR============= */
+
+
 /* why is the nac ul pushed to the right?? */
 div.navbar {
     width: 100%;
@@ -415,6 +440,7 @@ ul.navbar {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    text-decoration: underline;
     
 }
 .navbar li {
