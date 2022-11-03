@@ -4,6 +4,7 @@ html,body {
     min-height: 100vw;
     width: 100vw;
     background: linear-gradient(#dddddd, #9198e5);
+   
     z-index: -2;
  }
  
@@ -56,6 +57,7 @@ div.header {
     width: 100%;
     height: 100%;
     justify-content: space-between;
+    padding-bottom: 2em;
 }
 
 @media (max-width: 970px) {
@@ -179,15 +181,15 @@ div.biobody {
 }
 #biopic {
     
-    max-height: 5em;
-    max-width: 5em;
+    /* max-height: 7em;
+    max-width: 7em; */
    
 }
 
  img#fit {
     
-    width: 70%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     /* border: 1px solid rgb(203, 203, 203); */
     margin: 10px 5%;
@@ -287,12 +289,37 @@ div.hover-image{
 
 
 /* =========CODE PROJECT SPECIFIC=========== */
+
+.codecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .projectbody {
     display: flex;
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
+    margin: 0 auto 2em auto;
+    padding: 0 2em;
+    justify-content: center;
+}
+
+/* min 945 max 1320 */
+
+@media (min-width: 945px) {
+    .projectbody {
+        width: 800px;
+    }
+
+}
+
+@media (min-width: 1320px) {
+    .projectbody {
+        width: 100%;
+    }
+
 }
 
 .projectimg {
@@ -352,6 +379,7 @@ footer {
     display:flex;
     flex-direction: row;
     width: 100%;
+    height:100%;
     justify-content:center;
     /* min-width: none; */
 
