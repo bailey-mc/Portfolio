@@ -1,10 +1,11 @@
 
 html,body {
-    margin: 0px;
-    min-height: 100vw;
-    width: 100vw;
-    background: linear-gradient(#dddddd, #9198e5);
-   
+    background: linear-gradient(#dddddd, #9198e5) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* figured out proper background sizing c/o https://css-tricks.com/perfect-full-page-background-image/#top-of-site*/
     z-index: -2;
  }
  
