@@ -49,85 +49,85 @@ $('.previous').on('click', () => {
 //========HOVER IMAGES RESUME=============//
 
 //=============GA STUDENT ================//
-const $hoverImage = $('#hover-image1').hide(0)
+// const $hoverImage = $('#hover-image1').hide(0)
    
 
 
 
-$(document).ready(function() {
-  $("#resume-item1").hover(function() {
+// $(document).ready(function() {
+//   $("#resume-item1").hover(function() {
     
     
     
-    $hoverImage.show(4000)
-  }, function() {
-    $hoverImage.hide(2000)
-  });
-});
+//     $hoverImage.show(4000)
+//   }, function() {
+//     $hoverImage.hide(2000)
+//   });
+// });
 
-//============PRESCHOOL TEACHER=============//
-const $hoverImage2 = $('#hover-image2').hide(0)
-
-
-
-$(document).ready(function() {
-  $("#resume-item2").hover(function() {
-    $hoverImage2.show(4000)
-  }, function() {
-    $hoverImage2.hide(2000)
-  });
-});
+// //============PRESCHOOL TEACHER=============//
+// const $hoverImage2 = $('#hover-image2').hide(0)
 
 
 
-
-//================FARMER MARKET=============//
-
-const $hoverImage3 = $('#hover-image3').hide(0)
+// $(document).ready(function() {
+//   $("#resume-item2").hover(function() {
+//     $hoverImage2.show(4000)
+//   }, function() {
+//     $hoverImage2.hide(2000)
+//   });
+// });
 
 
 
 
-$(document).ready(function() {
-  $("#resume-item3").hover(function() {
-    $hoverImage3.show(4000)
-  }, function() {
-    $hoverImage3.hide(2000)
-  });
-});
+// //================FARMER MARKET=============//
+
+// const $hoverImage3 = $('#hover-image3').hide(0)
+
+
+
+
+// $(document).ready(function() {
+//   $("#resume-item3").hover(function() {
+//     $hoverImage3.show(4000)
+//   }, function() {
+//     $hoverImage3.hide(2000)
+//   });
+// });
 
 
 
 
 
-//==============WRITING TUTOR==============//
+// //==============WRITING TUTOR==============//
 
 
-const $hoverImage4 = $('#hover-image4').hide(0)
+// const $hoverImage4 = $('#hover-image4').hide(0)
 
 
-$(document).ready(function() {
-  $("#resume-item4").hover(function() {
-    $hoverImage4.show(4000)
-  }, function() {
-    $hoverImage4.hide(2000)
-  });
-});
+// $(document).ready(function() {
+//   $("#resume-item4").hover(function() {
+//     $hoverImage4.show(4000)
+//   }, function() {
+//     $hoverImage4.hide(2000)
+//   });
+// });
 
 
 
-//============UT STUDENT =================//
+// //============UT STUDENT =================//
 
-const $hoverImage5 = $('#hover-image5').hide(0)
+// const $hoverImage5 = $('#hover-image5').hide(0)
 
 
-$(document).ready(function() {
-  $("#resume-item5").hover(function() {
-    $hoverImage5.show(4000)
-  }, function() {
-    $hoverImage5.hide(2000)
-  });
-});
+// $(document).ready(function() {
+//   $("#resume-item5").hover(function() {
+//     $hoverImage5.show(4000)
+//   }, function() {
+//     $hoverImage5.hide(2000)
+//   });
+// });
 
 
 
