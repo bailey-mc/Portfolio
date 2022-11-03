@@ -1,15 +1,16 @@
 
-html {
+html,body {
     margin: 0px;
-    height: 100%;
-    width: 100%;
-    /* background: linear-gradient(#dddddd, #9198e5); */
+    min-height: 100vw;
+    width: 100vw;
+    background: linear-gradient(#dddddd, #9198e5);
+    z-index: -2;
  }
  
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#dddddd, #9198e5);
+    /* background: linear-gradient(#dddddd, #9198e5); */
     /* height: 100%; */
     /* width: 100%; */
     
@@ -55,6 +56,12 @@ div.header {
     width: 100%;
     height: 100%;
     justify-content: space-between;
+}
+
+@media (max-width: 970px) {
+    .content {
+        margin-bottom: 2em;
+    }
 }
 /* ===============PAGES DIV============= */
 /* .pages {
@@ -234,19 +241,26 @@ div.biobody {
     justify-content: space-around;
     text-align: center;
 }
-div.hover-image{
-    z-index: -1;
+
+.resumeheader{
+    margin: 0 0 2em 0;
+}
+div.hover-image{ 
+    
    
     /* align-self: center; */
     /* margin: -2em 0 0 0;  */
-}
+ } 
 .resume-list li {
     font-size: 4rem;
     margin: 0em 0em 1.5em 0em;
+    z-index: 1;
+    
 }
 #hover-image1 {
     height: 150px;
     width: auto;
+    
 }
 #hover-image2 {
     height: 150px;
