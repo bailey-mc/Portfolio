@@ -274,7 +274,9 @@ div.hover-image{
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
+
 .projectimg {
     display: flex;
     direction:row;
