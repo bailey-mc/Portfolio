@@ -231,15 +231,16 @@ div.biobody {
 
 
 /*============RESUME  SPECIFIC===========*/
-.resume-list {
+#resume-list {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
-    height: 60em;
+    height: 100%;
     list-style-type: none;
     justify-content: space-around;
     text-align: center;
+    background-image: none;
 }
 
 .resumeheader{
@@ -247,15 +248,17 @@ div.biobody {
 }
 div.hover-image{ 
     
-   
-    /* align-self: center; */
-    /* margin: -2em 0 0 0;  */
+   margin:0 auto 1em auto;
+   padding:none;
  } 
-.resume-list li {
+#resume-list li {
     font-size: 4rem;
-    margin: 0em 0em 1.5em 0em;
+    margin: 2em 0em 0em 0em;
     z-index: 1;
     
+}
+#resume-item5 {
+    margin-bottom: 3em;
 }
 #hover-image1 {
     height: 150px;
@@ -277,6 +280,7 @@ div.hover-image{
 #hover-image5 {
     height: 150px;
     width: auto;
+    margin-bottom: 2em;
 }
 /*============ END RESUME  SPECIFIC===========*/
 

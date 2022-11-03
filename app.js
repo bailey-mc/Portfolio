@@ -50,10 +50,15 @@ $('.previous').on('click', () => {
 
 //=============GA STUDENT ================//
 const $hoverImage = $('#hover-image1').hide(0)
+   
+
 
 
 $(document).ready(function() {
   $("#resume-item1").hover(function() {
+    
+    
+    
     $hoverImage.show(4000)
   }, function() {
     $hoverImage.hide(2000)
