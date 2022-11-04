@@ -233,16 +233,26 @@ li.mobile {
 /*============BIO SPECIFIC===========*/
 
 .biobody {
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bioimage {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    max-width: 695px;
+}
+.biotext {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 /*-------BIO PICTURE------*/
-
-
 
  img#fit {
     width: 80%;
@@ -254,10 +264,7 @@ li.mobile {
     min-height: 4em; */
 }
 
-
-
 /*-------END BIO PICTURE------*/
-
 
 
 /*------SPRITE--------*/
@@ -288,6 +295,23 @@ li.mobile {
 }
 
 /*------END SPRITE--------*/
+
+@media (min-width: 500px) {
+    .biobody h3 {
+        font-size: 2em;
+    }
+    .biobody p {
+        font-size: 1.25em;
+    }
+}
+@media (min-width: 1000px) {
+    .biobody h3 {
+        font-size: 3em;
+    }
+    .biobody p {
+        font-size: 2em;
+    }
+}
 
 /*============END BIO SPECIFIC===========*/
 
