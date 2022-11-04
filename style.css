@@ -70,12 +70,15 @@ ul.pages {
     list-style-type: none;
     font-size: 1.5rem;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   
     /* display: inline; */
 }
 
 li.pages {
-    display: inline;
+    /* display: inline; */
     margin: 0 .5em;
     text-decoration: underline;
     
@@ -152,6 +155,15 @@ li.mobile {
 }
 
 /* ---------MEDIA QUERIES-------- */
+@media (max-width: 530px) {
+    .header {
+        font-size: 2.5rem;
+    }
+    li.pages {
+        text-align: left;
+        font-size:1rem;
+    }
+}
 
 @media screen and (min-width: 1000px){
     .home-flex-container {
@@ -472,52 +484,7 @@ div.hover-image{
 }
 
 
-/* .codecontainer {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.projectbody {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    /* margin-bottom: 2em; */
-   /* margin: 0 auto 2em auto;
-    padding: 0 2em;
-    justify-content: center;
-} */
 
-/* min 945 max 1320 */
-
-/* @media (min-width: 945px) {
-    .projectbody {
-        width: 800px;
-    }
-
-}
-
-@media (min-width: 1320px) {
-    .projectbody {
-        width: 100%;
-    }
-
-} */
-
-/* .projectimg {
-    display: flex;
-    direction:row;
-    align-items:center;
-    margin: 5em 5em 0 0 ;
-    justify-content: left;
-}
-.codeimage {
-    height: 15em;
-    width: auto;
-    margin: 0 2em, 0, 0;
-   
-} */
 .hover-text {
     display: none;
 }
