@@ -48,102 +48,70 @@ $('.previous').on('click', () => {
 
 //========HOVER IMAGES RESUME=============//
 
+
+
 //=============GA STUDENT ================//
-// const $hoverImage = $('#hover-image1').hide(0)
-   
 
+$(document).ready(function() {
+  $("#resume-item1").hover(function() {
+    $('#resume-list').css({'background-image': 'url("resume_images/textbook.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center',  })
 
-
-// $(document).ready(function() {
-//   $("#resume-item1").hover(function() {
     
+  }, function() {
+    $('#resume-list').css('background-image', 'none')
     
-    
-//     $hoverImage.show(4000)
-//   }, function() {
-//     $hoverImage.hide(2000)
-//   });
-// });
+  });
+});
 
 // //============PRESCHOOL TEACHER=============//
-// const $hoverImage2 = $('#hover-image2').hide(0)
 
-
-
-// $(document).ready(function() {
-//   $("#resume-item2").hover(function() {
-//     $hoverImage2.show(4000)
-//   }, function() {
-//     $hoverImage2.hide(2000)
-//   });
-// });
-
-
-
+$(document).ready(function() {
+  $("#resume-item2").hover(function() {
+    $('#resume-list').css({'background-image': 'url("resume_images/kids.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+  }, function() {
+    $('#resume-list').css('background-image', 'none')
+    
+  });
+});
 
 // //================FARMER MARKET=============//
 
-// const $hoverImage3 = $('#hover-image3').hide(0)
-
-
-
-
-// $(document).ready(function() {
-//   $("#resume-item3").hover(function() {
-//     $hoverImage3.show(4000)
-//   }, function() {
-//     $hoverImage3.hide(2000)
-//   });
-// });
-
-
-
-
+$(document).ready(function() {
+  $("#resume-item3").hover(function() {
+    $('#resume-list').css({'background-image': 'url("resume_images/bread.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+  }, function() {
+    $('#resume-list').css('background-image', 'none')
+    
+  });
+});
 
 // //==============WRITING TUTOR==============//
 
-
-// const $hoverImage4 = $('#hover-image4').hide(0)
-
-
-// $(document).ready(function() {
-//   $("#resume-item4").hover(function() {
-//     $hoverImage4.show(4000)
-//   }, function() {
-//     $hoverImage4.hide(2000)
-//   });
-// });
-
-
+$(document).ready(function() {
+  $("#resume-item4").hover(function() {
+    $('#resume-list').css({'background-image': 'url("resume_images/quill.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+  }, function() {
+    $('#resume-list').css('background-image', 'none')
+    
+  });
+});
 
 // //============UT STUDENT =================//
 
-// const $hoverImage5 = $('#hover-image5').hide(0)
-
-
-// $(document).ready(function() {
-//   $("#resume-item5").hover(function() {
-//     $hoverImage5.show(4000)
-//   }, function() {
-//     $hoverImage5.hide(2000)
-//   });
-// });
-
-
-
-
-
-
-
+$(document).ready(function() {
+  $("#resume-item5").hover(function() {
+    $('#resume-list').css({'background-image': 'url("resume_images/chair.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+  }, function() {
+    $('#resume-list').css('background-image', 'none')
+    
+  });
+});
 
 //===========END RESUME ================//
 
 
 
 //============BIO===========//
-
-
-
 
 //============END BIO===========//
 
@@ -163,7 +131,6 @@ setTimeout (() => {
 $('#close').click(function () {
   $('#modal').css('display', 'none')
 })
-
 
 
 
