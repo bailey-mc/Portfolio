@@ -516,6 +516,7 @@ div.navbar {
     color: #e66465;
     margin: 0 auto;
     
+    
 }
 ul.navbar {
     width: 100%;
@@ -524,13 +525,15 @@ ul.navbar {
     flex-direction: row;
     justify-content: space-around;
     text-decoration: underline;
-    flex-wrap: wrap;
+   
+    /* flex-wrap: wrap; */
     
     
 }
 .navbar li {
     /* display: inline-block; */
     padding: 1em;
+    flex-shrink: 1;
     
 }
 @media (max-width:528px) {
@@ -541,8 +544,17 @@ ul.navbar {
 }
 @media (max-width:461px) {
     ul.navbar {
-        
-        font-size: 1.0rem;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow-x: auto;
     }
+    .navbar li:first-child {
+        margin-left: auto;
+    }
+    
+    .navbar li:last-child {
+        margin-right: auto;
+    }
+    /* scrolling navbar css from https://bhch.github.io/posts/2021/04/centring-flex-items-and-allowing-overflow-scroll/ */
 }
 
