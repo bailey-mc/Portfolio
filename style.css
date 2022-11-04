@@ -506,7 +506,7 @@ ul.links {
 /* ==============NAV BAR============= */
 
 
-/* why is the nac ul pushed to the right?? */
+
 div.navbar {
     width: 100%;
     min-height: 1em;
@@ -536,23 +536,18 @@ ul.navbar {
     flex-shrink: 1;
     
 }
-/* @media (max-width:528px) {
-    ul.navbar {
-        
-        font-size: 1.25rem;
-    }
-} */
+
 @media (max-width: 571px) {
-    ul.navbar {
+    ul.navbar, ul#home-pages {
         flex-wrap: nowrap;
         white-space: nowrap;
         overflow-x: auto;
     }
-    .homenav {
+    .homenav, .biolink {
         margin-left: 1em;
     }
     
-    .navbar li:last-child {
+    .navbar li:last-child, #home-pages li:last-child {
         margin-right: auto;
     }
     /* scrolling navbar css from https://bhch.github.io/posts/2021/04/centring-flex-items-and-allowing-overflow-scroll/ */
@@ -561,13 +556,13 @@ ul.navbar {
 /* ----following media queries bc otherwise home button gets pushed off the page too far to the left---- */
 
 @media (max-width: 460px) {
-    .homenav {
+    .homenav, .biolink {
         margin-left: 2em;
         padding-left: 4em;
     }
 }
 @media (max-width: 400px) {
-    .homenav {
+    .homenav , .biolink{
         margin-left:5em;
     }
 }
