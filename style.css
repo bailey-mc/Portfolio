@@ -607,13 +607,16 @@ ul.navbar {
     padding: 1em;
     
 }
-@media (min-width:528px) {
-    div.navbar {
-        /* display: block; */
-        box-sizing: border-box;
-        margin:0 auto;
-        text-align: center;
+@media (max-width:528px) {
+    ul.navbar {
+        flex-wrap: wrap;
+        font-size: 1.25rem;
     }
 }
-
+@media (max-width:461px) {
+    ul.navbar {
+        flex-wrap: wrap;
+        font-size: 1.0rem;
+    }
+}
 
