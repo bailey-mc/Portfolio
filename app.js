@@ -54,7 +54,7 @@ $('.previous').on('click', () => {
 
 $(document).ready(function() {
   $("#resume-item1").hover(function() {
-    $('#resume-list').css({'background-image': 'url("resume_images/textbook.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center',  })
+    $('#resume-list').css({'background-image': 'url("resume_images/textbook_half_trans.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center',  })
 
     
   }, function() {
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("#resume-item2").hover(function() {
-    $('#resume-list').css({'background-image': 'url("resume_images/kids.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+    $('#resume-list').css({'background-image': 'url("resume_images/kids_half_trans.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
   }, function() {
     $('#resume-list').css('background-image', 'none')
     
@@ -78,7 +78,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("#resume-item3").hover(function() {
-    $('#resume-list').css({'background-image': 'url("resume_images/bread.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+    $('#resume-list').css({'background-image': 'url("resume_images/bread_half_trans.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
   }, function() {
     $('#resume-list').css('background-image', 'none')
     
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("#resume-item4").hover(function() {
-    $('#resume-list').css({'background-image': 'url("resume_images/quill.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+    $('#resume-list').css({'background-image': 'url("resume_images/quill_half_trans.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
   }, function() {
     $('#resume-list').css('background-image', 'none')
     
@@ -100,7 +100,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("#resume-item5").hover(function() {
-    $('#resume-list').css({'background-image': 'url("resume_images/chair.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
+    $('#resume-list').css({'background-image': 'url("resume_images/chair_half_trans.png")', 'background-repeat': 'no-repeat', 'background-position': 'center center'  })
   }, function() {
     $('#resume-list').css('background-image', 'none')
     
