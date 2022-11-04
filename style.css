@@ -347,6 +347,16 @@ li.mobile {
     margin-bottom: 4em;
 }
 
+@media (max-width: 790px) {
+   
+    li#resume-item2 {
+        margin-bottom:2em;
+    }
+    li#resume-item3 {
+        margin-bottom:3em;
+    }
+}
+
 @media (max-width: 600px) {
     #resume-list li {
         font-size: 3em;
@@ -354,6 +364,16 @@ li.mobile {
     #resume-list {
         margin-top: 1em;
         margin-bottom: 3em;
+    }
+}
+@media (max-width: 450px) {
+   
+    #resume-list li{
+        margin-top: 1em;
+       
+    }
+    li#resume-item3 {
+        margin-bottom:3em;
     }
 }
 
@@ -494,6 +514,7 @@ div.navbar {
     flex-direction: row;
     justify-content: center;
     color: #e66465;
+    margin: 0 auto;
     
 }
 ul.navbar {
@@ -504,6 +525,7 @@ ul.navbar {
     justify-content: space-around;
     text-decoration: underline;
     flex-wrap: wrap;
+    
     
 }
 .navbar li {
