@@ -450,7 +450,30 @@ div.hover-image{
 
 /* =========CODE PROJECT SPECIFIC=========== */
 
-.codecontainer {
+.code-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.codeimage {
+    margin: 1em auto;
+    width: 85%;
+}
+.hover-text {
+    margin: 1em auto;
+    width: 85%;
+}
+.hover-text h4 {
+    text-align: left;
+    margin: 0 auto 1em auto;
+    /* padding: 0;
+    margin: 1em auto;
+    align-self: center; */
+}
+
+
+/* .codecontainer {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -461,14 +484,14 @@ div.hover-image{
     width: 100%;
     flex-wrap: wrap;
     /* margin-bottom: 2em; */
-    margin: 0 auto 2em auto;
+   /* margin: 0 auto 2em auto;
     padding: 0 2em;
     justify-content: center;
-}
+} */
 
 /* min 945 max 1320 */
 
-@media (min-width: 945px) {
+/* @media (min-width: 945px) {
     .projectbody {
         width: 800px;
     }
@@ -480,9 +503,9 @@ div.hover-image{
         width: 100%;
     }
 
-}
+} */
 
-.projectimg {
+/* .projectimg {
     display: flex;
     direction:row;
     align-items:center;
@@ -494,7 +517,7 @@ div.hover-image{
     width: auto;
     margin: 0 2em, 0, 0;
    
-}
+} */
 .hover-text {
     display: none;
 }
