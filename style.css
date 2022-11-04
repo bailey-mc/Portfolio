@@ -12,20 +12,13 @@ html,body {
 
 body {
     font-family: 'Work Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
     color: rgb(41, 65, 222);
-    /* background: linear-gradient(#dddddd, #9198e5); */
-    /* height: 100%; */
-    /* width: 100%; */
+    padding:20px;
+    /*so ppl on iphones can actually tap links */
     
 }
 
-/* @media (min-height: 950px) {
-    body {
-        height:150%
-    }
- } */
+
 
 a {
     text-decoration: none;
@@ -36,24 +29,22 @@ a {
 
 
 
-div.header {
+.header {
     width:100%;
     /* min-width: 565px; */
     margin:0 auto;
     box-sizing: border-box;
-    padding: 0 0 .5em 0;
+    padding: 20px;
     text-align: center;
-    font-size: 2rem;
-    /* background: linear-gradient(#e66465, #9198e5); */
+    font-size: 4rem;
+    
     color: rgb(41, 65, 222);
 }
 
-/* .header h2 {
-    margin: 0 auto;
-} */
+
 /* ===============HOME PAGE SPECIFIC============= */
 
-/* div.content { */
+
 
 /* ==============CONTENT================ */
 .content{
@@ -72,58 +63,50 @@ div.header {
         margin-bottom: 2em;
     }
 }
-/* ===============PAGES DIV============= */
-/* .pages {
-    list-style-type: none;
-} */
-
-div.pagesbig {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    justify-content: space-between;
-}
-
-div.pageslil{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 90%;
-}
+/* ===============PAGES UL============= */
 
 ul.pages {
-    margin-top: 10em;
+    margin-top: 1em;
     list-style-type: none;
-}
-div.secretbutton {
-    height: 10%;
-    width:100%
+    font-size: 1.5rem;
+    text-align: center;
+  
+    /* display: inline; */
 }
 
-/* ==============carousel============== */
-
-.bigcarousel {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
+li.pages {
+    display: inline;
+    margin: 0 .5em;
+    text-decoration: underline;
     
 }
 
+/* 
+div.secretbutton {
+    height: 10%;
+    width:100%
+} */
+
+/* ==============carousel============== */
+
 .carousel-container {
     width: 100%;
+    /* height: 700px; */
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
 }
 .carousel-images {
-    margin-top: 8em;
+    margin-top: 4em;
     width:80%;
     justify-content: center;
 }
 .carousel-images img {
     width: 80%;
+    max-width: 550px;
     border-radius: 10px;
-    margin: 2em 3em 1em 3em;
+    margin: 0 auto;
     align-self: center;
     padding: none;
     display:none;
@@ -138,23 +121,16 @@ div.secretbutton {
 .carousel-images img:first-of-type {
     display: block;
 }
-.belowcarouselcontainer {
-    width: 100%;
-    display: flex;
-    justify-content: right;
+
+h4 {
+    font-size: 2rem;
     text-align: center;
-}
-.belowcarousel{
-    width:80%;
-    justify-content: center;
-    text-align: center;
-    /* min-width:325px; */
-    
-}
-.belowcarousel h4 {
-    margin: 0em 3em 0em 0em;
+    margin: 1em 0 2em 0;
     min-width:325px;
     
+}
+li.mobile {
+    font-size: rem;
 }
 
 /*-------BUTTON -------------*/
@@ -165,7 +141,7 @@ div.secretbutton {
     padding: 5px;
     border-radius: 10px;
     border: none;
-    
+    color: rgb(41, 65, 222);
     
 }
 .secretbutton:hover,
@@ -175,7 +151,69 @@ div.secretbutton {
     color:goldenrod
 }
 
+/* ---------MEDIA QUERIES-------- */
 
+@media screen and (min-width: 1000px){
+    .home-flex-container {
+        display: flex;
+        flex-direction: row;
+        
+    }   
+    .home-nav {
+        flex: 0 .5 350px
+    }
+
+    .big-carousel-container {
+        flex: 1;
+       
+    }
+    ul.pages {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    li.pages {
+        text-align: left;
+        font-size:2rem;
+    }
+    li.mobile {
+        font-size: 2rem;
+    }
+    .carousel-images {
+        margin-top: 2em;
+    }
+}
+@media screen and (min-width: 1250px) { 
+    
+    .carousel-container {
+        /* width:90%; */
+        margin: 3rem auto;
+        align-self: center;
+        justify-content: center;
+    }
+    .big-carousel-container{
+        justify-content: center;
+    }
+    .home-nav {
+        flex: 0 .5 450px;
+        margin: 0 0 0 15px;
+    }
+    li.pages {
+        padding-bottom: 5px;
+        font-size:2.5rem;
+    }
+       
+}  
+@media screen and (min-width: 1460px) { 
+    .carousel-container {
+        width:80%;
+    }
+}
+@media screen and (min-width: 1700px) { 
+    .carousel-container {
+        width:70%;
+    }
+}
 
 /*=============END HOME PAGE SPECIFIC =========*/
 
