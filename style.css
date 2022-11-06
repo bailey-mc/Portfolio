@@ -352,7 +352,7 @@ li.mobile {
     li#resume-item2 {
         margin-bottom:2em;
     }
-    li#resume-item3 {
+    li#resume-item3,  li#resume-item1{
         margin-bottom:3em;
     }
 }
@@ -372,7 +372,7 @@ li.mobile {
         margin-top: 1em;
        
     }
-    li#resume-item3 {
+    li#resume-item3, li#resume-item1 {
         margin-bottom:3em;
     }
 }
@@ -396,6 +396,9 @@ li.mobile {
     height: auto;
     border-radius: 3%;
     max-width: 400px;
+}
+#detail {
+    width: 60%;
 }
 .hover-text {
     margin: 1em auto;
@@ -453,20 +456,7 @@ li.mobile {
         
     }
 }
-/* @media (min-width: 640px) {
-    .codeimage, .hover-text {
-        width: 70%;
-        
-    }
-    .code-container {
-        
-        width: 80%;
-        margin: 1em auto 0  auto;
-    }
-    .imageandtext {
-        flex-direction: row;
-    }
-} */
+
 @media (min-width: 640px) {
     .codeimage, .hover-text {
         width: 45%;
@@ -475,6 +465,7 @@ li.mobile {
         flex: 1 1 auto;
         
     }
+    
     .code-container {
         flex-direction: row;
         justify-content: space-between;

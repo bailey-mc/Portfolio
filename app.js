@@ -145,6 +145,12 @@ $( "#codeimage1" ).click(function() {
     });
   });
 
+ 
+
+
+  // .codeimage {
+  //   margin: 1em auto;
+  //   width: 85%;
   //this and all following slide toggle functions based off of https://api.jquery.com/slideToggle/ demonstration
 
   $( "#codeimage2" ).click(function() {
