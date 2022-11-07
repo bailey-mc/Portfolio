@@ -1,2 +1,19 @@
 # Portfolio
 Portfolio
+A README.md file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
+
+How I made my website, https://graceful-cupcake-bbcdf7.netlify.app/ (I just might buy a domain name so watch this space for updates): 
+
+I coded my page using HTML, CSS, JavaScript, and JQuery. I started with wireframes, thinking about what I wanted my pages to look like and what features I wanted. I set up the HTML pretty easily, and proceeded to ignore my instructor's warnings and began to set up the CSS for desktop. I built the carousel and set up the hovering images on the resume page with Jquery in this stage. After I had set up the basics of the JS and CSS, I began reviewing media quries and thinking about what needed to be done to make my layout responsive. 
+
+That's when I realized I should've listened to Matt and started with mobile first design. So, I deleted all of my CSS, reformatted the html, drew wireframes that began with phone screens and then transitioned to tablets and desktop, and began again. And when I tell you the resulting CSS is so much cleaner, trimmed down, and works better... I know in the future I will always begin designing with a  mobile first approach. 
+
+As I was redesigning, I was also trying to figure out the animations on the resume page. I had initially coded them with JQuery :hover and .show(), but a) I couldn't put the images in the background like I envisioned and b) when the images appeared, they were nested between the titles and would push the surrounding titles up and down. Multiple could be triggered at once as you drug your mouse across the screen and the result was nauseating. I switched over to trying to accomplish this with CSS, again using the :hover function, but the images were still bound to the text and not showing up as a background images. In the end, I took the images out of the html and CSS entirely and, with JQuery hover, set each image as the background image of the page when the right title was hovered over. This created a more muted result that I was very happy with. 
+
+Next, I tackled the appearing project text on my coding page. This came to me simply and I used JQuery .toggle() so that when you click on each image, its explanatory information appears. If I had more time, I would figure out how to have the mouse cursor change over the images to make it more obvious that you should click on the picture. I used flexbox and media queries to dictate where the text will be displayed depending on screen size. 
+
+One small issue I had that took me far too long to figure out was how to get the background color to cover the whole page. It kept stopping partway down the page. It really humbles you when after spending two hours trying to troubleshoot such a small issue on your own and then you read the documentation and the answer is so simple and obvious. Set the background-size to cover.
+
+One thing I have not been  able to figure out... when the explanationis appear on the coding projects page a) if they are too long they warp the images they share a <div> with and b) I want the container to expand only while the text boxes are open, so an image can have it's text without being kicked down to the next line because it is now too wide to share a line with another image. I tried messing with container size with JQuery, but could not get it to work.
+
+In the end, two of my favorite parts of the site are two very simple features. I love the butterfly sprites on my bio page, and I love the secret button (programmed with JQuery) on the home page that reveals a link to a page showcasing some of my creative personal projects. 
